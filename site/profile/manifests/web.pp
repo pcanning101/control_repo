@@ -1,3 +1,3 @@
-class production::web {
+class production::web{
   include nginx
   }
