@@ -1,5 +1,5 @@
 class prodile::agent_nodes{
-  unclude dockeragent
+  include dockeragent
   dockeragent::node {'web.puppet.vm'}
   dockeragent::node {'db.puppet.vm'}
  }
